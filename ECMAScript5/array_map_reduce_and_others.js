@@ -1,11 +1,11 @@
-var  armas = ["carabina", "escopeta", "fuzil", "pistola", "revólver"];
+var  motos = ["Titan", "YBR", "Strada"];
 
 //Array.isArray()
-console.log(Array.isArray(armas));
+console.log(Array.isArray(motos));
 
 
 //forEach()
-armas.forEach(listArray);
+motos.forEach(listArray);
 
 function listArray(value){
     console.log("# " + value);
@@ -20,12 +20,12 @@ function createNumericItem(value, indice){
 function toUp(value){
    return value.toUpperCase();
 }
-var armasToUpper = armas.map(toUp);
-var armasComNumeros = armas.map(createNumericItem);
+var motosToUpper = motos.map(toUp);
+var motosComNumeros = motos.map(createNumericItem);
 
-console.log(armas);
-console.log(armasToUpper);
-console.log(armasComNumeros);
+console.log(motos);
+console.log(motosToUpper);
+console.log(motosComNumeros);
 
 
 //Filter
